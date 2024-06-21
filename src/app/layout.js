@@ -9,12 +9,13 @@ export const metadata = {
   description: "Get Info From GoogleInfo",
 };
 
+
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>
-      {children}
-      <Footer/>
+    <html lang='en'>
+      <body className='relative min-h-screen'>
+        {children}
+        <Footer />
       </body>
     </html>
   );
